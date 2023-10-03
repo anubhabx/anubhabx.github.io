@@ -89,7 +89,6 @@ a {
     font-size: 7rem;
     opacity: .5;
     text-transform: uppercase;
-    letter-spacing: 2.5rem;
     line-height: 7rem;
 }
 
@@ -531,7 +530,7 @@ footer .center .footer-list {
     cursor: pointer;
 }
 
-@media (max-width > 900) {
+@media (max-width > 900px) {
     body > div.landing-container > div.text > h3 {
         font-size: 1rem;
     }
@@ -545,12 +544,21 @@ footer .center .footer-list {
     }
 }
 
-@media (width < 1025) {
+@media (width < 1025px) {
     .description {
         display: none;
     }
 
+    .text h3 {
+        font-size: .8rem;
+    }
+
+    .text h2 {
+        font-size: 1.1rem;
+    }
+
     .landing-container .text h1 {
         letter-spacing: normal;
+        font-size: 1.5rem;
     }
 }
