@@ -544,3 +544,9 @@ footer .center .footer-list {
         font-size: 3rem;
     }
 }
+
+@media (width < 1025) {
+    .description {
+        display: none;
+    }
+}
